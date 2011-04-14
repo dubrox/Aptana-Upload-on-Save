@@ -1,0 +1,13 @@
+This script is ment to be used with Eclipse Monkey Script.
+It allows to upload the current file on save, automatically.
+For an example of how to add it to your Eclipse IDE 
+search on Google or try this link:
+http://blog.millermedeiros.com/2010/02/eclipse-monkey-scripts-for-extending-aptana-and-eclipse-functionalities/
+
+The author of the cool stuff of the script is Ingo Muschenetz,
+while I (dubrox) only added few lines of code to make it easy to
+enable and disable the script.
+
+This script needs to be enabled (clicked) everytime the IDE is started.
+I considered this to be a proper behaviour so you won't end uploading
+files accidentally to your server.
