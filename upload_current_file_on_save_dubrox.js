@@ -49,7 +49,7 @@ function postExecuteFailure(commandId, exception) {}
  */
 var upload_current_file_on_save_dubrox = false;
 function main() {
-	if (confirm('Do you want to ' + ((upload_current_file_on_save_dubrox) ? 'enable' : 'disable') + ' Auto-upload?')) {
+	if (confirm('Do you want to ' + ((!upload_current_file_on_save_dubrox) ? 'ENABLE' : 'DISABLE') + ' auto-upload?')) {
 		upload_current_file_on_save_dubrox = !upload_current_file_on_save_dubrox;
 		alert('Auto-upload ' + ((upload_current_file_on_save_dubrox) ? 'enabled' : 'disabled'));
 	}
